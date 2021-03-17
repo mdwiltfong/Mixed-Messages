@@ -12,3 +12,8 @@ Prerequisites:
 JavaScript
 Git and GitHub
 Command line
+
+## [Project Board](https://github.com/mdwiltfong/Mixed-Messages/projects)
+
+
+## [Issues](https://github.com/mdwiltfong/Mixed-Messages/issues)
