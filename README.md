@@ -13,7 +13,7 @@ JavaScript
 Git and GitHub
 Command line
 
-## [Project Board](https://github.com/mdwiltfong/Mixed-Messages/projects)
+## [Project Board](https://github.com/mdwiltfong/Mixed-Messages/projects/1)
 
 
 ## [Issues](https://github.com/mdwiltfong/Mixed-Messages/issues)
