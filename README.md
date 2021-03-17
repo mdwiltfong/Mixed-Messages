@@ -17,3 +17,6 @@ Command line
 
 
 ## [Issues](https://github.com/mdwiltfong/Mixed-Messages/issues)
+
+## Team
+- Michael Wiltfong [Check out his GitHub!](github.com/mdwiltfong)
