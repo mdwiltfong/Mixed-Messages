@@ -61,14 +61,27 @@ var zodiacs = {
     }
 }
 
-function zodiacSigns(){
+// This function takes the <input id="birthday"> and then converts it into an object of numbers. To call on it use the following notation.
+// birthDay()[0] is the user's birth year, while birthDay()[1] & birthDay()[2] are the user's birth month and dirthday, respectively. 
+function birthday(){
 var x=document.getElementById("birthday").value;
 let arr=x.split("");
-let date=[];
-date.forEach(n => {
-    
-});
-
+let year=[x[0],x[1],x[2],x[3]];
+let month=[x[5],x[6]];
+let day=[x[8],x[9]];
+year=eval(year.join(""));
+month=eval(month.join(""))
+day=eval(day.join(""));
+let birthday=[year,month,day];
+return birthday;
 }
 
-zodiacSigns()
+
+function zodiacSign(userBday,userBmonth){
+if(aries.month[1]>userBmonth>aries.month[0] && aries.day[1]>userBday>aries.day[0]){
+var content=document.getElementById('content').textContent=aries.description;
+} else if(taurus.month[1]>userBmonth>taurus.month[0] && taurus.month[1]>userBday>taurus.month[0]){
+
+}
+}
+
