@@ -69,6 +69,7 @@ function zodiacSign(userBday, userBmonth) {
     let x = document.getElementById("zodiac");
     let y = [birthDay()[1], birthDay()[2]];
     let day = y.join("");
+ 
     if (zodiacs.aries.date[1]>day && day>zodiacs.aries.date[0]){
         return x.innerHTML=zodiacs.aries.description;
     } else if (zodiacs.taurus.date[1]>day && day>zodiacs.taurus.date[0]){
@@ -92,6 +93,4 @@ function zodiacSign(userBday, userBmonth) {
     } else{
         return x.innerHTML="Hmm, looks like your birthday doesn't work. Please try again! "
     }
-
-
 }
