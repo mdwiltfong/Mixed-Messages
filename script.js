@@ -67,6 +67,7 @@ function birthDay() {
 
 function zodiacSign(userBday, userBmonth) {
     let x = document.getElementById("zodiac");
+    document.getElementById("zodiacContainer").style.display="block";
     let y = [birthDay()[1], birthDay()[2]];
     let day = y.join("");
  

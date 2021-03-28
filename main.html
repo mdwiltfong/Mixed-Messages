@@ -15,20 +15,22 @@
 
 
 <body>
-
     <span>
         <div class="square">
             <p> What's your Zodiac sign?</p>
             <br>
             <br>
-                 <label for="date">Date of Birth</label>
-                <input type="date" id="birthday" value="2021/04/21"name="date"/>
-                <input type="button" onclick="zodiacSign()"/>
-                <p style="color:white"id="zodiac"> This is your zodiac</p>
-                
+            <div>
+                <label for="date">Date of Birth</label>
+                <input type="date" id="birthday" value="2021/04/21" name="date" />
+                <input type="button" onclick="zodiacSign()" value="Submit" />
+            </div>
+        </div>
+        <div id="zodiacContainer">
+            <p style="color:white" id="zodiac"> This is your zodiac</p>
+            
         </div>
     </span>
-
 
 </body>
 
