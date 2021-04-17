@@ -8,7 +8,6 @@ body {
 }
 
 span {
-  border: 2px solid red;
   width: 100%;
   height: auto;
   position: absolute;
@@ -22,7 +21,7 @@ button {
 }
 
 .square {
-  background-color: #7400B8;
+  background-color: #7400b8;
   margin: 10px auto;
   font-weight: bold;
   font-size: 20px;
@@ -30,8 +29,6 @@ button {
   border-radius: 3px;
   width: 400px;
   text-align: center;
-  border: 2px solid green;
-
 }
 
 .square p {
@@ -42,8 +39,6 @@ button {
   margin: auto;
 }
 
-
-
 .square:hover {
   text-align: center;
   margin: 10px auto;
@@ -53,35 +48,31 @@ button {
   border-radius: 3px;
   width: 400px;
   filter: drop-shadow(4px 4px 100px #00ffb7);
-  transition: 1000ms ;
+  transition: 1000ms;
 }
 
-#birthday{
+#birthday {
   width: 130px;
-  margin-right:70px;
-  margin-left:10px;
-
+  margin-right: 70px;
+  margin-left: 10px;
 }
 
-.square div{
-border:2px solid green;
-display: flex;
+.square div {
+  display: flex;
 }
 
-.square input{
-  width:60px;
+.square input {
+  width: 60px;
 }
 
-
-#zodiacContainer{
-  background-color: #7400B8;
+#zodiacContainer {
+  background-color: #7400b8;
   margin: auto;
-  border: 2px solid red;
   text-align: center;
-  width:400px;
-  display:none;
+  width: 400px;
+  display: none;
 }
 
-#zodiacContainer p{
-  margin:auto;
+#zodiacContainer p {
+  margin: auto;
 }
